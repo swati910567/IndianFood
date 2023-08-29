@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cookie&family=Dosis:wght@200;300;400;500;600;700;800&family=Satisfy&family=Tangerine:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply rounded-full uppercase cursor-pointer text-xs font-font px-2 py-2 tracking-wider ;
+}
